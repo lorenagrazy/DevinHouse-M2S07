@@ -1,0 +1,17 @@
+Identifique visualizando as tabelas em anexo:
+
+Quais são as entidades:
+
+R: Tabela Principal, Cliente, Tipo e Categoria.
+
+Quais são os atributos:
+
+R: id, cliente_id, tipo_id, categoria_id, valor, atualizado_em, cadastrado_em.
+
+Qual é a chave primária:
+
+R: id
+
+Qual é a chave Estrangeira:
+
+R: cliente_id, tipo_id e categoria_id
