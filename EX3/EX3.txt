@@ -1,0 +1,11 @@
+Banco de Dados:
+Um banco de dados é uma coleção organizada e estruturada de dados que são armazenados, gerenciados e acessados por meio de um sistema de gerenciamento de banco de dados (SGBD). Ele é projetado para armazenar e recuperar informações de forma eficiente, permitindo o gerenciamento seguro e consistente dos dados.
+
+Dado:
+Dado é uma representação bruta e objetiva de fatos, eventos ou elementos do mundo real. É uma unidade básica de informação que não possui contexto ou significado específico. Pode ser uma palavra, número, imagem, som ou qualquer outra forma de símbolo ou representação.
+
+Informação:
+Informação é o dado que foi processado, organizado e interpretado de forma significativa, atribuindo-lhe contexto, relevância e valor. A informação fornece conhecimento, compreensão ou insights para apoiar a tomada de decisões ou ações. É o resultado da análise e interpretação dos dados, tornando-se útil e relevante para os usuários.
+
+SGBD (Sistema de Gerenciamento de Banco de Dados):
+Um SGBD é um software que permite criar, organizar, manipular e gerenciar bancos de dados. Ele fornece um conjunto de ferramentas, recursos e funcionalidades para facilitar a criação, manutenção e uso dos bancos de dados. Um SGBD gerencia a estrutura, a segurança, a integridade, a recuperação e o acesso aos dados, garantindo a consistência e a confiabilidade das informações armazenadas. Exemplos de SGBDs populares são o MySQL, Oracle, Microsoft SQL Server, PostgreSQL e SQLite.

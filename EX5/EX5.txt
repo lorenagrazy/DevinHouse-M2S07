@@ -1,0 +1,26 @@
+DDL (Data Definition Language) em SQL é um conjunto de comandos utilizados para definir e manipular a estrutura dos objetos de um banco de dados, como tabelas, índices, visões e restrições. As principais instruções DDL são:
+
+CREATE: Usado para criar objetos, como tabelas, índices, visões e restrições.
+Exemplo: CREATE TABLE Employees (id INT, name VARCHAR(50));
+
+ALTER: Utilizado para modificar a estrutura de um objeto existente.
+Exemplo: ALTER TABLE Employees ADD COLUMN age INT;
+
+DROP: Remove um objeto do banco de dados.
+Exemplo: DROP TABLE Employees;
+
+------------------------------------------------------------------------------------------------------------------------
+
+DML (Data Manipulation Language) em SQL é um conjunto de comandos utilizado para manipular os dados dentro dos objetos de um banco de dados. As principais instruções DML são:
+
+SELECT: Utilizado para recuperar dados de uma ou mais tabelas.
+Exemplo: SELECT * FROM Employees;
+
+INSERT: Usado para inserir novos registros em uma tabela.
+Exemplo: INSERT INTO Employees (id, name) VALUES (1, 'John');
+
+UPDATE: Permite atualizar os valores de um ou mais registros em uma tabela.
+Exemplo: UPDATE Employees SET name = 'Jane' WHERE id = 1;
+
+DELETE: Remove um ou mais registros de uma tabela.
+Exemplo: DELETE FROM Employees WHERE id = 1;

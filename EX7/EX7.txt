@@ -1,0 +1,35 @@
+Os quatro principais comandos DML (Data Manipulation Language) em SQL são:
+
+SELECT:
+O comando SELECT é usado para recuperar dados de uma ou mais tabelas. Ele permite selecionar colunas específicas, aplicar condições de filtro, realizar operações de junção e ordenar os resultados. É usado principalmente para consultas e extração de informações.
+
+Exemplo:
+
+SELECT coluna1, coluna2 FROM tabela WHERE condição;
+
+------------------------------------------------------------------------------------------------------------------------
+INSERT:
+O comando INSERT é usado para inserir novos registros em uma tabela. Ele permite especificar os valores a serem inseridos nas colunas da tabela.
+
+Exemplo:
+
+INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);
+
+------------------------------------------------------------------------------------------------------------------------
+UPDATE:
+O comando UPDATE é usado para atualizar os valores de um ou mais registros em uma tabela. Ele permite modificar os valores das colunas especificadas com base em uma condição.
+
+Exemplo:
+
+UPDATE tabela SET coluna1 = novo_valor1, coluna2 = novo_valor2 WHERE condição;
+
+------------------------------------------------------------------------------------------------------------------------
+DELETE:
+O comando DELETE é usado para excluir um ou mais registros de uma tabela. Ele permite remover registros com base em uma condição especificada.
+
+Exemplo:
+
+DELETE FROM tabela WHERE condição;
+
+
+Obs: Em aula foram ensinados os comando SELECT E INSERT.

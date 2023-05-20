@@ -1,0 +1,12 @@
+Modelagem Conceitual em SQL:
+
+A modelagem conceitual em SQL é o processo de representar as entidades, relacionamentos e atributos de um domínio de negócio de forma abstrata e independente de qualquer tecnologia específica de banco de dados. Nessa etapa, são utilizados diagramas de entidade-relacionamento (DER) ou modelos de entidade-relacionamento (MER) para visualizar e descrever as estruturas e as associações entre os elementos do domínio.
+
+Modelagem Lógica em SQL:
+
+A modelagem lógica em SQL é o processo de traduzir o modelo conceitual para uma estrutura lógica que possa ser implementada em um banco de dados SQL específico. Nessa etapa, as entidades são mapeadas para tabelas, os atributos se tornam colunas e os relacionamentos são representados por chaves estrangeiras. Além disso, são definidos índices, restrições e outras configurações necessárias para garantir a integridade dos dados e a eficiência das consultas.
+
+Resumindo, a modelagem conceitual em SQL é a representação abstrata das entidades e relacionamentos de um domínio de negócio, enquanto a modelagem lógica em SQL é a tradução dessa representação para a estrutura de tabelas e relacionamentos específicos de um banco de dados SQL.
+
+Normalização:
+A normalização é um processo no projeto de bancos de dados que visa organizar as tabelas de forma eficiente, evitando redundâncias e anomalias de atualização. Ela envolve a aplicação de regras para garantir que as tabelas estejam bem estruturadas, com valores atômicos e dependências bem definidas. A normalização tem como objetivo evitar problemas de consistência e facilitar a manutenção dos dados.

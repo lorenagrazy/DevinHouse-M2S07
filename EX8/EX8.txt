@@ -1,0 +1,8 @@
+Apresente o script de criação de uma tabela (fique à vontade para definir o nome e suas colunas), que contenha as chaves: primária e UNIQUE:
+
+CREATE TABLE Product (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  code VARCHAR(10) UNIQUE,
+  price DECIMAL(10, 2) NOT NULL
+);

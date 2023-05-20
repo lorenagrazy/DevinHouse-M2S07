@@ -1,0 +1,13 @@
+Desenvolva um script que contenha, no mínimo, 2 tabelas com chave estrangeira realizando a ligação entre elas:
+
+CREATE TABLE Orders (
+  order_id INT PRIMARY KEY IDENTITY (1,1),
+  order_date DATE NOT NULL,
+  customer_id INT,
+  FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
+
+CREATE TABLE Customers (
+  customer_id INT PRIMARY KEY IDENTITY (1,1),
+  customer_name VARCHAR(50) NOT NULL
+);

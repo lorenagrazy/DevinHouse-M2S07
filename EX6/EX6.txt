@@ -1,0 +1,39 @@
+Restrição NOT NULL:
+A restrição NOT NULL é usada para indicar que uma coluna não pode conter valores nulos. Isso significa que é obrigatório fornecer um valor para essa coluna ao inserir ou atualizar registros. A restrição NOT NULL evita a presença de valores vazios ou desconhecidos nas colunas essenciais.
+
+Exemplo:
+
+CREATE TABLE Employees (
+  id INT NOT NULL,
+  name VARCHAR(50) NOT NULL
+);
+
+--------------------------------------------------------------------------------------------------------------------------
+Restrição FOREIGN KEY:
+É usada para estabelecer uma relação entre duas tabelas, especificando que os valores de uma coluna (ou conjunto de colunas) em uma tabela devem corresponder a valores existentes em uma coluna em outra tabela. Essa restrição garante a integridade referencial entre as tabelas.
+
+Exemplo:
+
+CREATE TABLE Customers (
+  customer_id INT PRIMARY KEY,
+  customer_name VARCHAR(50)
+);
+
+CREATE TABLE Orders (
+  order_id INT PRIMARY KEY,
+  order_date DATE,
+  customer_id INT,
+  FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
+
+--------------------------------------------------------------------------------------------------------------------------
+Restrição PRIMARY KEY:
+A restrição PRIMARY KEY define uma coluna (ou um conjunto de colunas) como chave primária da tabela. A chave primária é usada para identificar exclusivamente cada registro na tabela e impõe a restrição de unicidade. Além disso, ela é usada como referência em relacionamentos entre tabelas.
+
+Exemplo:
+
+CREATE TABLE Employees (
+  id INT PRIMARY KEY,
+  name VARCHAR(50),
+  department_id INT
+);
